@@ -1,0 +1,115 @@
+.tree-header{width:100%;height:40px;text-align:middle}
+.tree-container{min-height:350px;position:relative}
+text{font-family:"Helvetica Neue",Helvetica,sans-serif}
+.name{font-weight:700}
+.about{fill:#777;font-size:smaller}
+.link{fill:none;stroke:#000;shape-rendering:crispEdges}
+.dogtag{border:1px solid rgba(51,103,221,0.75);border:1px solid rgba(50,50,50,0.75);padding:0;margin:0;position:absolute;background:#eee;overflow:hidden;float:left;z-index:1}
+.dogtag.boy{background:#F8F8FE}
+.dogtag.girl{background:#FFF7FD}
+.child-link{top:0;left:0;background-color:#add8e6;position:absolute}
+.dogtag:hover{box-shadow:0 0 8px;background:#BACBF6;background:#DDD;opacity:70%}
+.dogtag a{display:table-cell;vertical-align:middle;text-align:center;z-index:1}
+.dogtag img{z-index:1}
+.dogtag p{float:middle;font-size:13px;width:100%;bottom:-10px;position:absolute;color:#FFF5EE;font-family:Arial;background-color:rgba(62,72,100,0.7);line-height:15px;max-height:15px;text-align:left}
+.dogtag span.year,.dogtag span.gender{font-size:9px;line-height:10px;max-height:10px;position:absolute;top:0;color:#FFF5EE;font-family:Arial;background-color:rgba(62,72,100,0.7);letter-spacing:.15em}
+.dogtag span.year{float:right;right:0;text-align:right}
+.dogtag span.gender{float:left;left:0;text-align:left}
+.dogtag a:hover p{max-height:48px}
+.tree-chart{position:absolute;top:auto;bottom:auto;left:0;right:0}
+.link{position:absolute}
+.father-branch{position:absolute;z-index:0}
+.mother-branch{position:absolute;z-index:0}
+.first{position:absolute;left:0;top:0;bottom:0;width:50%}
+.second{position:absolute;right:0;top:0;bottom:0;width:50%}
+.father-branch .first{border-bottom:1px solid #000;border-right:1px solid #000}
+.father-branch .second{border-top:1px solid #000}
+.mother-branch .first{border-top:1px solid #000;border-right:1px solid #000}
+.mother-branch .second{border-bottom:1px solid #000}
+
+/* START OF DEMO CSS - NOT NEEDED */
+
+.modal-slacker {
+    width: 100%;!important;
+    height: 100%;
+    margin: 0px;
+}
+
+.modal-slacker .modal-content {
+    margin-top: 5%;
+    border-radius: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    height: 80%;
+    overflow: auto;
+}
+
+.modal-slacker .modal-header .close {
+    color: #fff;
+    background-color: #428bca;
+    border-color: #357ebd;
+    opacity: 1;
+    padding: 10px 17px;
+    font-size: 27px;
+}
+
+.modal-slacker .modal-title {
+    font-size: 34px;
+    font-weight: bold;
+}
+
+@media (min-width: 992px) {
+    .modal-slacker .modal-header,
+    .modal-slacker .modal-body,
+    .modal-slacker .modal-footer {
+        width: 900px;
+    }
+}
+
+@media (min-width: 768px) {
+    .modal-slacker .modal-header,
+    .modal-slacker .modal-body,
+    .modal-slacker .modal-footer {
+        width: 600px;
+        margin: 30px auto;
+    }
+}
+
+
+/*uploaderVar*/
+
+.comp-logo {
+    width: 100%;
+    height: auto;
+    min-height: 150px;
+    max-height: 150px;
+    background-color: #efefef;
+    margin-top: 15px;
+    overflow-y: hidden;
+}
+
+.up-btn:hover {
+    background-color: #0b4d73;
+}
+.up-btn {
+    width: 100%;
+    height: 33px;
+    background: #0b669a;
+    color: #fff;
+    border: none;
+    border-radius: 0px 0px 10px 10px;
+    transition: all ease 01s;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 33px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.comp-logo
+{
+    background-size:cover;
+    background-position:center;
+}
+
+/*end uploaderVar*/
